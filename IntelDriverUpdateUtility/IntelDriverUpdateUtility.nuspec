@@ -9,7 +9,7 @@
     <authors>Intel</authors>
     <owners>pocki_c</owners>
     <summary>It is a utility that identifies new drivers available for your Intel components and provides the option to automatically install them.</summary>
-    <description>DIntel® Driver Update Utility keeps your system up-to-date, detecting which driver updates are relevant to your computer.</description>
+    <description>Intel® Driver Update Utility keeps your system up-to-date, detecting which driver updates are relevant to your computer.</description>
     <projectUrl>http://www.intel.com/content/www/us/en/support/detect.html?iid=dc_iduu</projectUrl>
     <tags>Intel Driver Update Utility admin</tags>
     <copyright>Intel</copyright>
