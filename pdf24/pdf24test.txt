@@ -1,0 +1,1 @@
+choco install pdf24 --version 7.0.2.0 -s=C:\Users\Christoph\OneDrive\Skripts\chocolateytemplates\_templates\pdf24

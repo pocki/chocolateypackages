@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>IntelDriverUpdateUtility</id>
+    <title>Intel® Driver Update Utility</title>
+    <version>2.2.0.6</version>
+    <authors>Intel</authors>
+    <owners>pocki_c</owners>
+    <summary>It is a utility that identifies new drivers available for your Intel components and provides the option to automatically install them.</summary>
+    <description>DIntel® Driver Update Utility keeps your system up-to-date, detecting which driver updates are relevant to your computer.</description>
+    <projectUrl>http://www.intel.com/content/www/us/en/support/detect.html?iid=dc_iduu</projectUrl>
+    <tags>Intel Driver Update Utility admin</tags>
+    <copyright>Intel</copyright>
+    <licenseUrl>http://www.intel.com/content/www/us/en/legal/terms-of-use.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/__NAME__.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>
+	* Supported Operating systems: The Intel® Driver Update Utility supports 32-bit and 64-bit versions of Microsoft Windows Vista*, Windows 7*, Windows 8* and Windows 8.1*, and Windows® 10.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

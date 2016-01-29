@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mouseclickcounter</id>
+    <title>mouseclickcounter</title>
+    <version>2.0.43.0</version>
+    <authors>pock-programming</authors>
+    <owners>pocki_c</owners>
+    <summary>MouseClickCounter v2 counts clicks, keystrokes and scrolls.</summary>
+    <description>Counting clicks, scrolls, keystrokes, sum of pixel you have moved with mouse.
+* Converting moved pixel to meters and kilometers.
+* Showing data in a diagram.
+* Each user on the computer has his own data and statistic.
+* Application can be minimized to the tray icons.
+* Automatic saving. Data will be saved periodically and on exit.
+* Start with Windows is possible.
+* Language can be chosen between English and German.
+* inactivity and standby detection
+* update notification
+* statistics function
+* export statistics and diagram data to csv-file
+	</description>
+    <projectUrl>http://pock-programming.net/</projectUrl>
+    <tags>mouse clickcounter clicks keystrokes scrolls english german</tags>
+    <copyright>2012-2014 pock-programming</copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by-nd/4.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://pock-programming.net/MouseClickCounter/program.png</iconUrl>
+    <dependencies>
+      <dependency id="DotNet3.5" version="3.5.20140403" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
