@@ -35,7 +35,7 @@ __Several features of PDF24 PDF Creator__
     <copyright>pdf24</copyright>
     <licenseUrl>http://en.pdf24.org/legal-notice.html</licenseUrl>
     <docsUrl>https://en.pdf24.org/pdf-creator-features.html</docsUrl>
- 		<projectSourceUrl>https://github.com/pocki/chocolateypackages</projectSourceUrl>
+ 		<packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://i.imgur.com/7UEq6AP.png</iconUrl>
     <!--<dependencies>
