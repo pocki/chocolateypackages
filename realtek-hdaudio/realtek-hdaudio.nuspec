@@ -7,11 +7,14 @@
     <authors>Realtek</authors>
     <owners>pocki</owners>
     <licenseUrl>http://www.realtek.com.tw/about/</licenseUrl>
-    <projectUrl>http://www.realtek.com.tw/downloads/downloadsCheck.aspx?Langid=1&PNid=24&PFid=24&Level=4&Conn=3&DownTypeID=3&GetDown=false#High%20Definition%20Audio%20Codecs</projectUrl>
+    <projectUrl>http://www.realtek.com.tw/downloads/downloadsCheck.aspx?Langid=1#High%20Definition%20Audio%20Codecs</projectUrl>
     <packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
 		<!-- <iconUrl></iconUrl> -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description></description>
+    <description>Realtek Semiconductor Corp. High Definition Audio System Software
+		For Windows 2000, XP, Vista, Windows7, Windows 8, Windows 8.1, Windows 10
+x86/x64
+		</description>
     <summary>Realtek HD Audio Driver</summary>
     <releaseNotes>http://12244.wpc.azureedge.net/8012244/drivers/rtdrivers/pc/audio/0005-R279_Readme.pdf</releaseNotes>
     <copyright />
