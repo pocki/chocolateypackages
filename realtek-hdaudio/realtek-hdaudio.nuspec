@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>realtek-hdaudio</id>
+    <version>2.79</version>
+    <title>Realtek HD Audio Driver</title>
+    <authors>Realtek</authors>
+    <owners>pocki</owners>
+    <licenseUrl>http://www.realtek.com.tw/about/</licenseUrl>
+    <projectUrl>http://www.realtek.com.tw/downloads/downloadsCheck.aspx?Langid=1&PNid=24&PFid=24&Level=4&Conn=3&DownTypeID=3&GetDown=false#High%20Definition%20Audio%20Codecs</projectUrl>
+    <packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
+		<!-- <iconUrl></iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description></description>
+    <summary>Realtek HD Audio Driver</summary>
+    <releaseNotes>http://12244.wpc.azureedge.net/8012244/drivers/rtdrivers/pc/audio/0005-R279_Readme.pdf</releaseNotes>
+    <copyright />
+    <tags>sound card driver realtek hd admin</tags>
+  </metadata>
+</package>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>via-hdaudio</id>
+    <version>11.1100</version>
+    <title>VIA Vinyl HD Audio Driver </title>
+    <authors>VIA</authors>
+    <owners>pocki</owners>
+    <licenseUrl>http://download.viatech.com/DriverDownloadSubmitAjaxSvl</licenseUrl>
+    <projectUrl>http://download.viatech.com/DriverDownloadSubmitAjaxSvl</projectUrl>
+    <packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
+		<iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Windows 10: Chips supported: VIA Vinyl VT1705, VT1708S, VT1802P, VT1802S, VT1828S, and VT2021 HD Audio codecs. 
+		Windows 8.1 32-Bit, Windows 8.1 64-Bit, Windows 8 32-Bit, Windows 8 64-Bit, Windows 7 32-Bit, Windows 7 64-Bit, Windows Vista 32-Bit, Windows Vista 64-Bit, Windows XP, Windows XP 64-Bit:
+		Chips supported: VIA Vinyl VT1702S, VT1705, VT1708B, VT1708S, VT1716S, VT1718S, VT1802P, VT1808S, VT1812S, VT1818, VT1819S, VT1828S, and VT2021 HD Audio Codecs </description>
+    <summary>NVIDIA Geforce Driver</summary>
+    <releaseNotes></releaseNotes>
+    <copyright />
+    <tags>graphics card driver geforce nvidia admin</tags>
+  </metadata>
+</package>
