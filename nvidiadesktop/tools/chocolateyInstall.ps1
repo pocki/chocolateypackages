@@ -1,7 +1,7 @@
 ﻿$packageName = 'nvidiadesktop'
-$version = '361.91'
+$version = '362.00'
 $fileType = 'exe'
-$silentArgs = '-s -noreboot -nogfexp'
+$silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 
 $WindowsVersion = (Get-WmiObject -Class Win32_OperatingSystem).Caption
 if ( $WindowsVersion -match 'Windows 10' ) {
