@@ -1,13 +1,13 @@
 ﻿$packageName = 'vcredist2015'
 $installerType = 'exe'
-$url = 'http://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe'
-$checksum = 'bfb74e498c44d3a103ca3aa2831763fb417134d1'
+$url = 'http://download.microsoft.com/download/f/3/9/f39b30ec-f8ef-4ba3-8cb4-e301fcf0e0aa/vc_redist.x86.exe'
+$checksum = '7cfea915a9da0fc76eb583d2913f0cb8352ad906'
 $checksumType = 'sha1'
-$url64 = 'http://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe'
-$checksum64 = '3155cb0f146b927fcc30647c1a904cd162548c8c'
+$url64 = 'http://download.microsoft.com/download/4/c/b/4cbd5757-0dd4-43a7-bac0-2a492cedbacb/vc_redist.x64.exe'
+$checksum64 = '05d912fd411e895e0376e10f0c20519200345f14'
 $checksumType64 = 'sha1'
 $silentArgs = '/Q /norestart'
-$validExitCodes = @(0,3010)  # http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$validExitCodes = @(0,3010)
 
 $osVersion = (Get-WmiObject Win32_OperatingSystem).Version
 Write-Verbose "OS Version: $osVersion"
