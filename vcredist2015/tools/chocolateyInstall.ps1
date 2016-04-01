@@ -10,14 +10,12 @@ $silentArgs = '/Q /norestart'
 $validExitCodes = @(0,3010)
 
 $osVersion = (Get-WmiObject Win32_OperatingSystem).Version
-Write-Verbose "OS Version: $osVersion"
 if(($osVersion -ge [version]"6.3.9600") -AND ($osVersion -lt [version]"6.4")) {
-	$hotfix = Get-HotFix | where hotfixID -eq KB2919355
-	Write-Verbose "Hotfix KB2919355: $hotfix"
-	if($hotfix -eq $null) {
-		Write-Warning "$packageName need Update KB2919355 installed first."
-		return;
-	}
+  $hotfix = Get-HotFix | where hotfixID -eq KB2919355
+  if($hotfix -eq $null) {
+    throw "$packageName need Update KB2919355 installed first."
+    return;
+  }
 }
 
 Install-ChocolateyPackage -PackageName "$packageName" `
