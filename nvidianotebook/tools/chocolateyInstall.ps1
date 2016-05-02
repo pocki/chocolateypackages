@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvidianotebook'
-$version = '364.72'
+$version = '365.10'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 
