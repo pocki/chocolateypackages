@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvidiadesktop'
-$version = '368.22'
+$version = '368.69'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 
