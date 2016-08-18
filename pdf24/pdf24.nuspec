@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>pdf24</id>
-    <title>PDF24 Creator</title>
-    <version>7.9.0.20160712</version>
-    <authors>PDF24</authors>
-    <owners>pocki_c</owners>
-    <summary>The free PDF24 PDF Creator is a program to create PDF files from almost any application. The PDF software is a free PDF creator to create PDF files from any type of document. With the PDF creator you can convert documents into PDF files very easily. The PDF creator acts as a PDF printer.</summary>
-    <description>The free PDF24 PDF Creator is a program to create PDF files from almost any application. The PDF software is a free PDF creator to create PDF files from any type of document. With the PDF creator you can convert documents into PDF files very easily. The PDF creator acts as a PDF printer. 
+	<metadata>
+		<id>pdf24</id>
+		<title>PDF24 Creator</title>
+		<version>7.9.0.20160712</version>
+		<authors>PDF24</authors>
+		<owners>pocki_c</owners>
+		<summary>The free PDF24 PDF Creator is a program to create PDF files from almost any application. The PDF software is a free PDF creator to create PDF files from any type of document. With the PDF creator you can convert documents into PDF files very easily. The PDF creator acts as a PDF printer.</summary>
+		<description>The free PDF24 PDF Creator is a program to create PDF files from almost any application. The PDF software is a free PDF creator to create PDF files from any type of document. With the PDF creator you can convert documents into PDF files very easily. The PDF creator acts as a PDF printer. 
 
 __Advantages of PDF24 PDF Creator__
 -   Once installed, create PDF files forever
@@ -28,24 +28,23 @@ __Several features of PDF24 PDF Creator__
 -   Set PDF information such as author and title
 
 [Changelog](https://en.pdf24.org/pdf-creator-changelog.html)
-
-</description>
-    <projectUrl>http://en.pdf24.org/creator.html</projectUrl>
-    <tags>pdf pdfcreator pdf24 admin office split merge</tags>
-    <copyright>pdf24</copyright>
-    <licenseUrl>http://en.pdf24.org/legal-notice.html</licenseUrl>
-    <docsUrl>https://en.pdf24.org/pdf-creator-features.html</docsUrl>
- 		<packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
-   <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://i.imgur.com/7UEq6AP.png</iconUrl>
-    <!--<dependencies>
+		</description>
+		<projectUrl>http://en.pdf24.org/creator.html</projectUrl>
+		<tags>pdf pdfcreator pdf24 admin office split merge</tags>
+		<copyright>pdf24</copyright>
+		<licenseUrl>http://en.pdf24.org/legal-notice.html</licenseUrl>
+		<docsUrl>https://en.pdf24.org/pdf-creator-features.html</docsUrl>
+		<packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://i.imgur.com/7UEq6AP.png</iconUrl>
+		<!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-   <releaseNotes>
+		<releaseNotes>
 * Supported Operating Systems: Windows 10, Windows 7 Service Pack 1, Windows 8, Windows 8.1, Windows Vista Service Pack 2, Windows XP Service Pack 3
-	</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
 </package>

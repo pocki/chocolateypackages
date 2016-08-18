@@ -1,32 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
-        <id>winrar</id>
-        <version>5.40</version>
-        <title>WinRAR</title>
-        <authors>win.rar GmbH</authors>
-        <owners>dtgm</owners>
-        <licenseUrl>http://www.win-rar.com/winrarlicense.html</licenseUrl>
-        <projectUrl>http://www.win-rar.com/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7b7d24ec7b94193a1a70b145b43ab6bd9aeab468/icons/winrar.png</iconUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
+	<metadata>
+		<id>winrar</id>
+		<version>5.40</version>
+		<title>WinRAR</title>
+		<authors>win.rar GmbH</authors>
+		<owners>pocki_c</owners>
+		<licenseUrl>http://www.win-rar.com/winrarlicense.html</licenseUrl>
+		<projectUrl>http://www.win-rar.com/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7b7d24ec7b94193a1a70b145b43ab6bd9aeab468/icons/winrar.png</iconUrl>
+		<packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
 
 #### Commercial software
 
 You can try WinRAR before you [buy](https://shop.win-rar.com/16/purl-shop-1984-1-n).</description>
-        <summary>A powerful archive manager</summary>
-        <releaseNotes>#### Program
+		<summary>A powerful archive manager</summary>
+		<releaseNotes>#### Program
 * [News](http://www.win-rar.com/latestnews.html)
 * [Changelog](http://www.rarlab.com/rarnew.htm)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)</releaseNotes>
-        <copyright>© 2002 Alexander Roshal</copyright>
-        <tags>trial rar compression archive nagware</tags>
-    </metadata>
-    <files>
-        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
-        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
-    </files>
+</releaseNotes>
+		<copyright>© 2002 Alexander Roshal</copyright>
+		<tags>trial rar compression archive nagware</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
 </package>
