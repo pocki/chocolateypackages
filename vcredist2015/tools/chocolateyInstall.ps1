@@ -31,7 +31,7 @@ Install-ChocolateyPackage -PackageName "$packageName" `
 
 if (Get-ProcessorBits 64) {
 	Write-Verbose "Install also 32bit version on 64bit operation system."
-  Install-ChocolateyPackage -PackageName "$packageName" `
+  Install-ChocolateyPackage -PackageName "${packageName}_x86" `
                             -FileType "$installerType" `
                             -Url "$url" `
                             -SilentArgs "$silentArgs" `
