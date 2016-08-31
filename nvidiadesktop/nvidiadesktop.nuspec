@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>nvidiadesktop</id>
-		<version>372.54</version>
+		<version>372.70</version>
 		<title>Geforce Nvidia Desktop Driver</title>
 		<authors>NVIDIA</authors>
 		<owners>pocki</owners>
@@ -27,7 +27,7 @@ GeForce 400 Series
 GeForce GTX 480, GeForce GTX 470, GeForce GTX 465, GeForce GTX 460 SE v2, GeForce GTX 460 SE, GeForce GTX 460, GeForce GTS 450, GeForce GT 440, GeForce GT 430, GeForce GT 420
 		</description>
 		<summary>NVIDIA Geforce Driver</summary>
-		<releaseNotes>http://us.download.nvidia.com/Windows/372.54/372.54-win10-win8-win7-desktop-release-notes.pdf</releaseNotes>
+		<releaseNotes>http://us.download.nvidia.com/Windows/372.70/372.70-win10-win8-win7-desktop-release-notes.pdf</releaseNotes>
 		<copyright />
 		<tags>graphics card driver geforce nvidia desktop admin</tags>
 	</metadata>
