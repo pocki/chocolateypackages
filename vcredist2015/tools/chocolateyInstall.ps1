@@ -13,7 +13,7 @@ $osVersion = (Get-WmiObject Win32_OperatingSystem).Version
 if(($osVersion -ge [version]"6.3.9600") -AND ($osVersion -lt [version]"6.4")) {
   $hotfix = Get-HotFix | where hotfixID -eq KB2919355
   if($hotfix -eq $null) {
-    throw "$packageName need Update KB2919355 installed first."
+    throw "$packageName need Update KB2919355 installed first. Mabye a restart after installing KB2919355 is needed."
     return;
   }
 }
