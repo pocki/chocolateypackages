@@ -1,6 +1,6 @@
 ﻿$packageName = 'vcredist2015'
 $installerType = 'exe'
-$url = 'https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe'
+$url = 'https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x86.exe'
 $checksum = '72211bd2e7dfc91ea7c8fac549c49c0543ba791b'
 $checksumType = 'sha1'
 $url64 = 'https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe'
