@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvidiadesktop'
-$version = '375.57'
+$version = '375.70'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
@@ -8,11 +8,11 @@ $file = Join-Path "$unpackDir" "setup.exe"
 
 $osVersion = (Get-WmiObject Win32_OperatingSystem).Version
 if($osVersion -ge [version]"10.0.10240.0") {
-	$url = "http://de.download.nvidia.com/Windows/$version/$version-desktop-win10-32bit-international-whql.exe"
-	$url64 = "http://de.download.nvidia.com/Windows/$version/$version-desktop-win10-64bit-international-whql.exe"
+	$url = "https://de.download.nvidia.com/Windows/$version/$version-desktop-win10-32bit-international-whql.exe"
+	$url64 = "https://de.download.nvidia.com/Windows/$version/$version-desktop-win10-64bit-international-whql.exe"
 } else {
-	$url = "http://de.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-32bit-international-whql.exe"
-	$url64 = "http://de.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-64bit-international-whql.exe"
+	$url = "https://de.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-32bit-international-whql.exe"
+	$url64 = "https://de.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-64bit-international-whql.exe"
 }
 
 Get-ChocolateyWebFile $packageName $unpackFile $url $url64
