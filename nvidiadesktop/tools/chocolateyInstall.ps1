@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvidiadesktop'
-$version = '375.86'
+$version = '376.09'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
