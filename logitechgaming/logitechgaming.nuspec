@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>logitechgaming</id>
     <title>Logitech Gaming Software</title>
-    <version>8.89.68</version>
+    <version>8.90.117</version>
     <authors>http://gaming.logitech.com/developers</authors>
     <owners>angryhussord</owners>
     <summary>Lets you customize functions on Logitech gaming mice, keyboards, headsets, and select wheels.</summary>
