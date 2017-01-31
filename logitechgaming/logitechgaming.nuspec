@@ -2,10 +2,9 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>logitechgaming</id>
     <title>Logitech Gaming Software</title>
-    <version>8.90.117</version>
+    <version>8.91.48</version>
     <authors>http://gaming.logitech.com/developers</authors>
     <owners>angryhussord</owners>
     <summary>Lets you customize functions on Logitech gaming mice, keyboards, headsets, and select wheels.</summary>
@@ -23,9 +22,6 @@ These included third party software components provide key functionality to Logi
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<packageSourceUrl>https://github.com/angryhussord/choco_logitechgaming</packageSourceUrl>
     <iconUrl>https://cdn.rawgit.com/angryhussord/choco_logitechgaming/9a25aa38053916bdf36b19536acafb8e0b8c5907/lgs-icon.jpg</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <releaseNotes>http://support.logitech.com/en_us/software/gaming-software</releaseNotes>
   </metadata>
   <files>
