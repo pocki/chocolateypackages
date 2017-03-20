@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvidianotebook'
-$version = '378.78'
+$version = '378.92'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
