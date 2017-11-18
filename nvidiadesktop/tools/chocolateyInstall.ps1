@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvidiadesktop'
-$version = '388.13'
+$version = '388.31'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot -nogfexp /passive /nosplash /noeula'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
@@ -17,11 +17,11 @@ if($osVersion -ge [version]"10.0.10240.0") {
 
 Get-ChocolateyWebFile $packageName $unpackFile $url $url64
 Get-ChocolateyUnzip $unpackFile $unpackDir
-Remove-Item $unpackDir\Update.Core -Recurse -Force
-Remove-Item $unpackDir\Display.Update -Recurse -Force
-Remove-Item $unpackDir\ShadowPlay -Recurse -Force
-Remove-Item $unpackDir\GFExperience -Recurse -Force
-Remove-Item $unpackDir\GFExperience.NvStreamSrv -Recurse -Force
-Remove-Item $unpackDir\GfExperienceService -Recurse -Force
+Remove-Item $unpackDir\Update.Core -Recurse -Force -ea silentlycontinue 
+Remove-Item $unpackDir\Display.Update -Recurse -Force -ea silentlycontinue 
+Remove-Item $unpackDir\ShadowPlay -Recurse -Force -ea silentlycontinue 
+Remove-Item $unpackDir\GFExperience -Recurse -Force -ea silentlycontinue 
+Remove-Item $unpackDir\GFExperience.NvStreamSrv -Recurse -Force -ea silentlycontinue 
+Remove-Item $unpackDir\GfExperienceService -Recurse -Force -ea silentlycontinue 
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file 
-Remove-Item $unpackDir -Recurse -Force
+Remove-Item $unpackDir -Recurse -Force -ea silentlycontinue 
