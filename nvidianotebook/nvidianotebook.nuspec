@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>nvidianotebook</id>
-		<version>388.31</version>
+		<version>388.43</version>
 		<title>Geforce Nvidia Notebook Driver</title>
 		<authors>NVIDIA</authors>
 		<owners>pocki</owners>
@@ -29,7 +29,7 @@ GeForce 400M Series (Notebooks)
 GeForce GTX 485M, GeForce GTX 480M, GeForce GTX 470M, GeForce GTX 460M, GeForce GT 445M, GeForce GT 435M, GeForce GT 425M, GeForce GT 420M, GeForce GT 415M, GeForce 410M
 		</description>
 		<summary>NVIDIA Geforce Driver</summary>
-		<releaseNotes>http://us.download.nvidia.com/Windows/388.31/388.31-win10-win8-win7-notebook-release-notes.pdf</releaseNotes>
+		<releaseNotes>http://us.download.nvidia.com/Windows/388.43/388.43-win10-win8-win7-notebook-release-notes.pdf</releaseNotes>
 		<copyright />
 		<tags>graphics card driver geforce nvidia notebook admin</tags>
 	</metadata>
