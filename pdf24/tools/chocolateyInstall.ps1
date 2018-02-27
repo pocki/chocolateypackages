@@ -1,7 +1,7 @@
 ﻿$packageName = 'pdf24'
 $installerType = 'MSI'
-$url = 'http://stx.pdf24.org/products/pdf-creator/download/pdf24-creator-8.4.0.msi'
-$checksum = '14fe40217558492fc41f2f983d7c189676f673083718593471ce6a6a68d038b0';
+$url = 'http://stx.pdf24.org/products/pdf-creator/download/pdf24-creator-8.4.1.msi'
+$checksum = '56b46fd0bd23d6373652609ca03448afb564cbcbcd5e5a3c3ac4e83a975788e2';
 $checksumType = 'sha256';
 $silentArgs = 'DESKTOPICONS=No FAXPRINTER=No /qn';
 $validExitCodes = @(0)
