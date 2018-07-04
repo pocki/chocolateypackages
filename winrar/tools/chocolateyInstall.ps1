@@ -1,10 +1,10 @@
 ﻿$packageName = 'winrar'
 $installerType = 'exe'
-$url = 'http://www.rarlab.com/rar/wrar'
-$url64 = 'http://www.rarlab.com/rar/winrar-x64-'
+$url = 'https://www.rarlab.com/rar/wrar'
+$url64 = 'https://www.rarlab.com/rar/winrar-x64-'
 $silentArgs = '/S'
 $LCID = (Get-UICulture).LCID
-$url_version_dot= '5.40'
+$url_version_dot= '5.60'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
 $validExitCodes = @(0)
 
