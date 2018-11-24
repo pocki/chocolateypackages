@@ -4,9 +4,9 @@
 	<metadata>
 		<id>pdf24</id>
 		<title>PDF24 Creator</title>
-		<version>8.6.1</version>
+		<version>8.7.0</version>
 		<authors>PDF24</authors>
-		<owners>freaky-m0,jberezanski,chocolatey,pocki_c</owners>
+		<owners>freaky-m0,jberezanski,teknowledgist,chocolatey,pocki_c</owners>
 		<summary>The free PDF24 PDF Creator is a program to create PDF files from almost any application. The PDF software is a free PDF creator to create PDF files from any type of document. With the PDF creator you can convert documents into PDF files very easily. The PDF creator acts as a PDF printer.</summary>
 		<description>The free PDF24 PDF Creator is a program to create PDF files from almost any application. The PDF software is a free PDF creator to create PDF files from any type of document. With the PDF creator you can convert documents into PDF files very easily. The PDF creator acts as a PDF printer. 
 __General__
@@ -65,9 +65,9 @@ __PDF24 Windows Tray Icon__
 		<packageSourceUrl>https://github.com/pocki/chocolateypackages</packageSourceUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://i.imgur.com/7UEq6AP.png</iconUrl>
-		<!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+		<dependencies>
+      <dependency id="KB2919355" version="1.0.20160915" />
+    </dependencies>
 		<releaseNotes>
 * Supported Operating Systems: Windows 10, Windows 7 Service Pack 1, Windows 8, Windows 8.1, Windows Vista Service Pack 2, Windows XP Service Pack 3
 		</releaseNotes>
