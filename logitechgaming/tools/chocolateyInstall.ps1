@@ -1,10 +1,20 @@
 ﻿$packageName = 'logitechgaming'
 $installerType = 'EXE'
-$url = "https://www.logitech.com/pub/techsupport/gaming/LGS_9.00.42_x86_Logitech.exe"
-$url64 = "https://www.logitech.com/pub/techsupport/gaming/LGS_9.00.42_x64_Logitech.exe"
-$silentArgs = '/S'
-$checksum = 'f189bdf5ed4647996e796fdb3212e368317039a3be94773023aa10098dcffeeb'
-$checksum64 = '1368ccef7d5e936ca52ff90482c4f24dba3c46988f3a165006a99b2a302b4693'
-$checksumType = 'sha256'
-$validExitCodes = @(0)
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64" -Checksum "$checksum" -ChecksumType "$checksumType" -Checksum64 "$checksum64" -ChecksumType64 "$checksumType" -validExitCodes $validExitCodes
+$url = "https://www.logitech.com/pub/techsupport/gaming/LGS_9.02.65_x86_Logitech.exe"
+$url64 = "https://www.logitech.com/pub/techsupport/gaming/LGS_9.02.65_x64_Logitech.exe"
+ 
+$packageArgs = @{
+  packageName   = $packageName
+  fileType      = $installerType
+  url           = $url
+  url64bit      = $url64
+  silentArgs    = '/S'
+  validExitCodes= @(0)
+  softwareName  = 'logitechgaming*'
+  checksum      = 'FD70176DDEEEE0A24BBACEEF67A67004DEBF53ED437DB7D7C06786F8D4FD8EEB'
+  checksumType  = 'sha256'
+  checksum64      = 'E037727F2E571F41864D93FBCC094E124EDA3E1DCD2D56973F1F65C5A577BF55'
+  checksumType64  = 'sha256'
+};
+ 
+Install-ChocolateyPackage @packageArgs;
